@@ -1,2 +1,18 @@
 # Pegwave
-Pegwave is a plinko synth roguelike. You drop coins down a board, they hit pegs, and every hit makes sound — keyed, tempo-quantized, shaped by an LFO you’re basically playing live.
+
+Plinko synth roguelike — drop voice coins through oscillating pegs; every hit makes sound, keyed and tempo-quantized by the LFO you tune live.
+
+## Quick start
+
+```bash
+cd pegwave
+bun install
+bun run dev
+```
+
+Open **http://localhost:3000/**
+
+## Docs
+
+- [`pegwave/README.md`](pegwave/README.md) — play locally, scripts, run structure
+- [`pegwave/docs/ARCHITECTURE.md`](pegwave/docs/ARCHITECTURE.md) — codebase map for contributors
